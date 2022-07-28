@@ -27,7 +27,7 @@ Y = college.iloc[:, -1].values
 ### Aplicação do K-Means
 
 for i in range(30):
-    SKMeans = KMeans(n_clusters=5, random_state=i)
+    SKMeans = KMeans(n_clusters=2, random_state=i)
     YPredict = SKMeans.fit_predict(X)
     YResult = np.concatenate((YPredict.reshape(len(YPredict),1), Y.reshape(len(Y),1)),1)
     SKMeans.fit(X)
