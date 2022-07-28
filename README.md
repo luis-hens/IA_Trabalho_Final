@@ -1,7 +1,6 @@
 # Análise de Dados com Algoritmos de Inteligência Artificial
 
-O objetivo do código é realizar uma análise de permonance de dois datasets aplicados aos algoritmos K-Means e SVM (Support Vector Machine).  
-Note que o algoritmo ainda não está pronto e o processo de desenvolvimento será datado nesse repositório.
+O objetivo do código é realizar uma análise de permonance de dois datasets aplicados aos algoritmos K-Means e SVM (Support Vector Machine). Os códigos na pasta python apenas realizam a análise sem gráficos. Para uma compreensão melhor há a pasta jupyter com a execução passo a passo e exibição de gráficos de disperção.
 
 ## Algoritmos
 
